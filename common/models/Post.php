@@ -68,9 +68,33 @@ class Post extends \yii\db\ActiveRecord
         ];
     }
 
+    /**
+     * @return string
+     */
+    public function getTitle()
+    {
+        return Yii::$app->language === 'kz' ? $this->title_kz : $this->title_ru;
+    }
+
+    /**
+     * @return string
+     */
+    public function getContent()
+    {
+        return Yii::$app->language === 'kz' ? $this->content_kz : $this->content_ru;
+    }
+
+    public static function cutString($string, $length) {
+        if (strlen($string) >= (int)$length) {
+            return mb_strcut($string, 0, $length) . '...';
+        }
+
+        return $string;
+    }
+
     public function getImage()
     {
-        return Yii::$app->params['staticDomain'] . '/posts/' . $this->img;
+        return $this->img ? Yii::$app->params['staticDomain'] . '/post/' . $this->img : '/img/no-image.png';
     }
 
     public function upload()
