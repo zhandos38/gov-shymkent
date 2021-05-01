@@ -2,145 +2,497 @@
 
 $this->title = 'Главная страница';
 ?>
-<div class="pt-60 pb-60 pt-lg-120 pb-lg-120" style="background-image: url(images/1920-900-1.jpg); background-size: cover; background-position: center left;">
+<div class="hero-active  owl-carousel">
+    <div class="hero-area" style="background-image: url(/img/banner/slider-1.png)">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero-containt">
+                        <div class="hero-text text-area">
+                            <h1 data-animation="animated fadeInRight">Personal care for your Healthy Living</h1>
+                            <p data-animation="animated fadeInRight">Lorem ipsum dolor sit amet consectetur
+                                adipiscing tofo dosed do eiusmod tempor incididunt ut labore et dolore sedomagna
+                                aliqua.</p>
+                            <div class="exper-button " data-animation="animated fadeInRight">
+                                <a href="services-v.1.html" class="team-1 btn-default">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-area" style="background-image: url(/img/banner/slider-3.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero-containt">
+                        <div class="hero-text text-area">
+                            <h1 data-animation="animated fadeInRight">We make our patients lives better</h1>
+                            <p data-animation="animated fadeInRight">Lorem ipsum dolor sit amet consectetur
+                                adipiscing tofo dosed do eiusmod tempor incididunt ut labore et dolore sedomagna
+                                aliqua.</p>
+                            <div class="exper-button " data-animation="animated fadeInRight">
+                                <a href="services-v.1.html" class="team-1 btn-default">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-area" style="background-image: url(/img/banner/slider-4.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero-containt">
+                        <div class="hero-text text-area">
+                            <h1 data-animation="animated fadeInRight">Quality Healthcare Services</h1>
+                            <p data-animation="animated fadeInRight">Lorem ipsum dolor sit amet consectetur
+                                adipiscing tofo dosed do eiusmod tempor incididunt ut labore et dolore sedomagna
+                                aliqua.</p>
+                            <div class="exper-button " data-animation="animated fadeInRight">
+                                <a href="services-v.1.html" class="team-1 btn-default">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="intro-area">
+    <div class="row">
+        <div class="col-lg-3 col-sm-6 col-xs-12 no-padding">
+            <div class="intro-box">
+                <i class="icofont-wall-clock"></i>
+                <div class="inr">
+                    <h2>Always Open</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12 no-padding">
+            <div class="intro-box">
+                <i class="icofont-doctor"></i>
+                <div class="inr">
+                    <h2>Specialist Doctor</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12 no-padding">
+            <div class="intro-box">
+                <i class="icofont-ambulance"></i>
+                <div class="inr">
+                    <h2>Ambulance Facility</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-12 no-padding">
+            <div class="intro-box" style="border-right:0">
+                <i class="icofont-blood-test"></i>
+                <div class="inr">
+                    <h2>Laboratory Test</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="advanced-area">
+    <div class="container">
+        <h1>Using Advanced Technology, We can give <br>You the Smile you've Always Wanted.</h1>
+        <div class="row">
+            <div class="col-md-5 col-sm-12 col-xs-12 no-padding">
+                <div class="adv-img">
+                    <img class="main" src="/img/interface/advance.png" alt="adv1">
+                    <img class="first" src="/img/interface/advance-1.png" alt="adv2">
+                    <img class="second" src="/img/interface/advance2.png" alt="adv3">
+                </div>
+            </div>
+            <div class="col-md-7 col-sm-12 col-xs-12">
+                <div class="adv-detail">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. </p>
+                    <div class="adv-link">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12 col-xs-12 no-padding">
+                                <a href="#"><i class="icofont-arrow-right"></i>Reporting & Analysis</a>
+                                <a href="#"><i class="icofont-arrow-right"></i>Technical Medical audit</a>
+                            </div>
+                            <div class="col-lg-6 col-sm-12 col-xs-12 no-padding">
+                                <a href="#"><i class="icofont-arrow-right"></i>Health Certificates</a>
+                                <a href="#"><i class="icofont-arrow-right"></i>Referral Services</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="adv-indi">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-9 col-xs-12">
+                                <h2>Dr. Mike William</h2>
+                                <h4>(Chairman & Founder)</h4>
+                            </div>
+                            <div class="col-md-6 col-sm-3 col-xs-12">
+                                <img src="/img/interface/sig.png" alt="1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="adv-bottom">
+                        <h3>Walk into our 24 hours open clinic</h3>
+                        <ul>
+                            <li><b>Mon – Thu -</b> 9:00 AM - 7:00 PM</li>
+                            <li><b>Friday -</b> 9:00 AM - 6:00 PM</li>
+                            <li><b>Sat - Sun -</b> Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services-area">
+    <div class="container">
+        <h1>Explore our Caring & Premium<br> Medical Services</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>
+            incididunt ut labore et dolore magna aliqua. </p>
+        <div class="services-box">
+            <a href="#" class="per-box">
+                <img src="/img/services/s-1.png" alt="img">
+                <h3>Dental Care</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-2.png" alt="img">
+                <h3>Neurology</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-3.png" alt="img">
+                <h3>Pediatrics</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-4.png" alt="img">
+                <h3>General Surgery</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-5.png" alt="img">
+                <h3>Orthopaedic</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-6.png" alt="img">
+                <h3>Heart Disease</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-7.png" alt="img">
+                <h3>Rental Medicine</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-8.png" alt="img">
+                <h3>Bones</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-9.png" alt="img">
+                <h3>Urology</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-10.png" alt="img">
+                <h3>Primary Care</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-11.png" alt="img">
+                <h3>Eye Specialist</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-12.png" alt="img">
+                <h3>Gynecology</h3>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="range-area pt-80">
+    <div class="col-md-6 col-sm-12 col-xs-12 onl-desktop ">
+        <figure class="image-wrap" style="position:relative; margin:0">
+            <img class="range-img  " src="/img/banner/banner-2.png" alt="img">
+            <a href="https://www.youtube.com/embed/WZ5WSUNrZt4" class="play mob-vdo-btn" data-toggle="modal"
+               data-target="#myModal"><i class="icofont-play-alt-1"></i></a>
+        </figure>
+    </div>
+    <div class="container">
+
+        <div class="row align-center">
+
+            <div class="col-md-6 col-sm-12 col-xs-12 is-mob">
+                <div class="skill-area pt-90 ">
+                    <h1>We have 25 Years of Experience</h1>
+                    <p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="skills" id="skills">
+                        <div class="skillbar clearfix" data-percent="80%">
+                            <h3>Medical Private</h3>
+                            <div class="skills-main">
+                                <div class="skillbar-bar"></div><span class="circle"></span>
+                                <div class="skill-bar-percent">80%</div>
+                            </div>
+                        </div>
+                        <div class="skillbar clearfix" data-percent="85%">
+                            <h3>Patients Served</h3>
+                            <div class="skills-main">
+                                <div class="skillbar-bar"></div><span class="circle"></span>
+                                <div class="skill-bar-percent">85%</div>
+                            </div>
+                        </div>
+                        <div class="skillbar clearfix" data-percent="90%" style="margin-bottom:0px">
+                            <h3>Satisfied Patients</h3>
+                            <div class="skills-main" style="margin-bottom:0px">
+                                <div class="skillbar-bar"></div><span class="circle"></span>
+                                <div class="skill-bar-percent">90%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 only-mob">
+                <figure class="pt-30 p-30" style="position:relative; margin:0">
+                    <img class="range-img" src="/img/banner/banner-2.png" alt="img">
+                    <a href="#" class="play mob-vdo-btn" data-toggle="modal" data-target="#myModal"><i
+                                class="icofont-play-alt-1"></i></a>
+                </figure>
+            </div>
+
+        </div>
+    </div>
+    <img class="rng" src="/img/interface/rng-1.png" alt="img">
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Video Title</h4>
+                </div>
+                <div class="modal-body">
+                    <iframe width="1116" height="628" src="https://www.youtube.com/embed/7e90gBu4pas"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="doctors-area">
+    <h1>Meet our Dedicated <br>Doctor’s Team</h1>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 pt-20 pb-20">
-                <h4 class="heading text-white font-bold mb-10">ГКП НА ПХВ</h4>
-                <h3 class="heading font-20 text-white text-lh-4 font-bold mb-20">ГОРОДСКОЙ ОНКОЛОГИЧЕСКИЙ ЦЕНТР</h3>
-                <p class="text-white h5 mb-0">Является единственным специализированным онкологическим учреждением области, оснащенный необходимым оборудованием и имеющим квалифицированные кадры врачей-онкологов.</p>
-                <a href="book-appointment-form.html" class="btn btn-primary btn-lg mt-20 mt-lg-40">Забронируйте сеанс</a>
-                <a href="contact-1.html" class="btn btn-outline-light btn-lg mt-20 mt-lg-40 ml-lg-10">
-                    Оставить обратный звонок
-                    <i class="ion-arrow-forward-sharp icon-right"></i>
-                </a>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="doc-box">
+                    <div class="product-box">
+                        <img src="/img/doctors/d-1.png" class="img-responsive" alt="img">
+                        <div class="pro-text">
+                            <ul>
+                                <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                                <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                                <li><a href="#"><i class="icofont-instagram"></i></a></li>
+                                <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h2>Dr. Allison</h2>
+                    <h4>Eye Specialist</h4>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="doc-box">
+                    <div class="product-box">
+                        <img src="/img/doctors/d-2.png" class="img-responsive" alt="img">
+                        <div class="pro-text">
+                            <ul>
+                                <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                                <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                                <li><a href="#"><i class="icofont-instagram"></i></a></li>
+                                <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h2> Dr. Sophia</h2>
+                    <h4>Heart Specialist</h4>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="doc-box">
+                    <div class="product-box">
+                        <img src="/img/doctors/d-3.png" class="img-responsive" alt="img">
+                        <div class="pro-text">
+                            <ul>
+                                <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                                <li><a href="#"><i class="icofont-twitter"></i></a></li>
+                                <li><a href="#"><i class="icofont-instagram"></i></a></li>
+                                <li><a href="#"><i class="icofont-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <h2>Dr. Jackson</h2>
+                    <h4>Heart Specialist</h4>
+                </div>
+            </div>
+            <div class="con-link">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img src="/img/brand/brand-1.png" class="img-responsive" alt="img">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img src="/img/brand/brand-2.png" class="img-responsive" alt="img">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img src="/img/brand/brand-3.png" class="img-responsive" alt="img">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <img src="/img/brand/brand-4.png" class="img-responsive" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="clearfix"></div>
+<div class="doctor-area ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="doctor-wrap">
+                    <div class="doctor-content">
+                        <h3>Need an Advice from Expert Doctor? Call us</h3>
+                        <span>0123-456-7899</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container mt-80">
-    <div class="row">
-        <div class="col-lg-7 pr-40">
-            <h3 class="heading font-bold mb-10">О нашей деятельности</h3>
-            <p class="text-primary h6 font-semi-bold mb-30">Основные направления деятельности КГП на ПХВ</p>
-            <div class="tabs-2">
-                <ul class="nav nav-tabs" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#t2body1" aria-controls="t2body1" role="tab" data-toggle="tab">
-                            <i class="ion-fitness-outline icon-left"></i>
-                            Infrastructure
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#t2body2" aria-controls="t2body2" role="tab" data-toggle="tab">
-                            <i class="ion-bed-outline icon-left"></i>
-                            Intensive Care
-                        </a>
-                    </li>
-                </ul>
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade show active" id="t2body1">
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
-                    </div>
-                    <div role="tabpanel" class="tab-pane fade" id="t2body2">
-                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-5">
-            <div class="youtube-video" data-video-id="IeSW2Gg1qIY" data-video-thumbnail="images/video-thumb-1.jpg" style="height: 320px; background-image: url(_images/video-thumb-1.html);">           <!-- Replace video id with your video id -->
-                <div class="video-data">
-                    <div class="btn-play">
-                        <i class="ion-play-sharp"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="pt-80 pb-80 bg-grey-1 mt-80">
+<div class="contact-area">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <div class="heading-block">
-                    <h3 class="heading font-bold">Последние новости</h3>
-                    <p class="sub-heading">Последние новости в области онкологии</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 mt-20">
-                <div class="blog-grid">
-                    <div class="blog-header">
-                        <img src="images/550-291-1.jpg" class="img-fluid rounded mb-30" alt="">
-                        <div class="blog-meta mb-10">
-                            <ul class="meta-list">
-                                <li class="posted-on">
-                                    <a href="#">
-                                        <span class="date">23</span>
-                                        <span class="month">Sep</span>
-                                    </a>
-                                </li>
-                                <li class="posted-in"><a href="#">Technology</a></li>
-                            </ul>
+                <div class="form-request">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="boxsed-shawo">
+                                <div class="form-area">
+                                    <h1>Request An Appointment</h1>
+                                    <form name="frmRequest" id="frmRequest" action="https://medics.themechampion.com/html/hospital/contact_process.php" method="post" class="form_wrap">
+                                        <input type="hidden" name="frmRequestAnAppoint" name="frmRequestAnAppoint" value="frmRequestAnAppoint" />
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control" placeholder="Full Name" type="text" name="fname" id="fname">
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control" placeholder="Email*" type="email" name="femail" id="femail">
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input placeholder="Select your Date" type="text" name="checkIn" id="datepicker" value="" class="calendar" autocomplete="off"/> <i class="icofont-ui-calendar"></i>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input class="form-control" type="time" name="ftime" id="ftime">
+                                                <i class="icofont-clock-time"></i>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <textarea class="form-control" name="fmessage" id="fmessage" placeholder="Message*"></textarea>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <div class="contact-button">
+                                                    <button type="submit" class="team-1 btn-submit">Submit Now</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
-                        <h4 class="heading font-bold text-lh-5 mb-10">Technology can help you become healthy</h4>
-                    </div>
-                    <div class="blog-excerpt">
-                        <p>Behind the word mountains, far from the countries Vokalia, there live the texts</p>
-                        <a href="blog-single.html" class="link-primary">Read More..</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 mt-20">
-                <div class="blog-grid">
-                    <div class="blog-header">
-                        <img src="images/550-291-2.jpg" class="img-fluid rounded mb-30" alt="">
-                        <div class="blog-meta mb-10">
-                            <ul class="meta-list">
-                                <li class="posted-on">
-                                    <a href="#">
-                                        <span class="date">10</span>
-                                        <span class="month">Oct</span>
-                                    </a>
-                                </li>
-                                <li class="posted-in"><a href="#">Food</a></li>
-                            </ul>
-                        </div>
-                        <h4 class="heading font-bold text-lh-5 mb-10">Healthier options for those hunger-pangs</h4>
-                    </div>
-                    <div class="blog-excerpt">
-                        <p>Behind the word mountains, far from the countries Vokalia, there live the texts</p>
-                        <a href="blog-single.html" class="link-primary">Read More..</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 mt-20">
-                <div class="blog-grid">
-                    <div class="blog-header">
-                        <img src="images/550-291-3.jpg" class="img-fluid rounded mb-30" alt="">
-                        <div class="blog-meta mb-10">
-                            <ul class="meta-list">
-                                <li class="posted-on">
-                                    <a href="#">
-                                        <span class="date">25</span>
-                                        <span class="month">Nov</span>
-                                    </a>
-                                </li>
-                                <li class="posted-in"><a href="#">Health Care</a></li>
-                            </ul>
-                        </div>
-                        <h4 class="heading font-bold text-lh-5 mb-10">Complete guide to shoulder & neck pain</h4>
-                    </div>
-                    <div class="blog-excerpt">
-                        <p>Behind the word mountains, far from the countries Vokalia, there live the texts</p>
-                        <a href="blog-single.html" class="link-primary">Read More..</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<section class="news-area">
+    <div class="container">
+        <h1>News & Blog</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>
+            incididunt ut labore et dolore magna aliqua. </p>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+                <div class="news-box">
+                    <div class="news-inn">
+                        <img src="/img/news/n-1.png" class="img-responsive" alt="img">
+                    </div>
+                    <div class="news-text">
+                        <div class="liner">
+                            <h4 style="float:left"><i class="icofont-ui-calendar"></i> 26th March 2020</h4>
+                            <h4 style="float:right"><i class="icofont-user"></i> By Admin</h4>
+                        </div>
+                        <a href="#">
+                            <h2>In this Hospital there are Special Surgeon</h2>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua.</p>
+                        <a class="i-btn" href="#"><i class="icofont-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+                <div class="news-box">
+                    <div class="news-inn">
+                        <img src="/img/news/n-2.png" class="img-responsive" alt="img">
+                    </div>
+                    <div class="news-text">
+                        <div class="liner">
+                            <h4 style="float:left"><i class="icofont-ui-calendar"></i> 12th Feb 2020</h4>
+                            <h4 style="float:right"><i class="icofont-user"></i> By Admin</h4>
+                        </div>
+                        <a href="#">
+                            <h2>In this Hospital there are Special Surgeon</h2>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua.</p>
+                        <a class="i-btn" href="#"><i class="icofont-double-right "></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+                <div class="news-box">
+                    <div class="news-inn">
+                        <img src="/img/news/n-3.png" class="img-responsive" alt="img">
+                    </div>
+                    <div class="news-text">
+                        <div class="liner">
+                            <h4 style="float:left"><i class="icofont-ui-calendar"></i> 05th Aug 2020</h4>
+                            <h4 style="float:right"><i class="icofont-user"></i> By Admin</h4>
+                        </div>
+                        <a href="#">
+                            <h2>In this Hospital there are Special Surgeon</h2>
+                        </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua.</p>
+                        <a class="i-btn" href="#"><i class="icofont-double-right "></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
