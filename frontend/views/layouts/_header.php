@@ -61,7 +61,7 @@ use yii\helpers\Url;
                         <a href="<?= Url::to(['site/service']) ?>">Услуги</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?= Url::to(['news/index']) ?>">Новости</a>
+                        <a href="<?= Url::to(['post/index']) ?>">Новости</a>
                     </li>
                     <li class="nav-item">
                         <a href="<?= Url::to(['site/contact']) ?>">Контакты</a>
