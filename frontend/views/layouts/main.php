@@ -35,26 +35,24 @@ AppAsset::register($this);
 
 <?= $this->render('_header') ?>
 
-<div class="page-header">           <!-- Page Header -->
+<!-- hero-about-area start -->
+<div class="hero-about-area">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="heading bold"><?= Html::encode($this->title) ?></h1>
-            </div>
-        </div>
-    </div>
-    <div class="breadcrumb-wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <?= Breadcrumbs::widget([
-                        'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-                    ]) ?>
+                <div class="hero-about-text text-center">
+                    <h2>About Us</h2>
+                    <h4>
+                        <?= Breadcrumbs::widget([
+                            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+                        ]) ?>
+                    </h4>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!-- hero-about-area End -->
 
 <?= Alert::widget() ?>
 <?= $content ?>
