@@ -1,24 +1,22 @@
 <?php
 
 use yii\helpers\Url; ?>
-<div class="blog-header">
-    <img src="<?= $model->getImage() ?>" class="img-fluid rounded" alt="">
-    <h3 class="heading font-bold post-title"><a href="<?= Url::to(['post/view', 'id' => $model->id]) ?>"><?= $model->getTitle() ?></a></h3>
-    <div class="blog-meta">
-        <ul class="meta-list">
-            <li class="posted-on">Posted On :
-                <a href="#">
-                    <span class="date">10</span>
-                    <span class="month">Oct</span>
-                    <span class="year">2021</span>
-                </a>
-            </li>
-            <li class="posted-by">By : <a href="#">Joy Mathew</a></li>
-            <li class="posted-in">In <a href="#">Health Care</a></li>
-        </ul>
+<div class="blog-left-area listt">
+    <div class="blog-containt">
+        <div class="blog-img">
+            <img src="<?= $model->getImage() ?>" alt="">
+            <div class="blog-img-hov">
+                <div class="hove-top">
+                    <a href="#"><i class="icofont-calendar"></i><?= date('d.m.Y H:i', $model->created_at) ?></a>
+                </div>
+                <div class="hover-bb">
+                    <h3><?= $model->getTitle() ?></h3>
+                </div>
+            </div>
+        </div>
+        <div class="blog-text ttx">
+            <p><?= \common\models\Post::cutString(strip_tags($model->getContent()), 365) ?></p>
+            <a class="team-1" href="<?= Url::to(['post/view', 'id' => $model->id]) ?>">Подробнее</a>
+        </div>
     </div>
 </div>
-<div class="blog-excerpt">
-    <?= \common\models\Post::cutString(strip_tags($model->getContent()), 365) ?>
-</div>
-<a href="blog-single.html" class="btn btn-light mt-10">Подробнее</a>

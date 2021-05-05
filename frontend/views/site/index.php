@@ -1,5 +1,8 @@
 <?php
 
+use common\models\Post;
+use yii\helpers\Url;
+
 $this->title = 'Главная страница';
 ?>
 <div class="hero-active  owl-carousel">
@@ -9,10 +12,10 @@ $this->title = 'Главная страница';
                 <div class="col-lg-12">
                     <div class="hero-containt">
                         <div class="hero-text text-area">
-                            <h1 data-animation="animated fadeInRight">Личная забота для вашего здорового образа жизни</h1>
+                            <h1 data-animation="animated fadeInRight"><?= Yii::t('site', 'Личная забота для вашего здорового образа жизни') ?></h1>
                             <p data-animation="animated fadeInRight"></p>
                             <div class="exper-button " data-animation="animated fadeInRight">
-                                <a href="services-v.1.html" class="team-1 btn-default">Связаться с нами</a>
+                                <a href="services-v.1.html" class="team-1 btn-default"><?= Yii::t('site', 'Связаться с нами') ?></a>
                             </div>
                         </div>
                     </div>
@@ -26,10 +29,10 @@ $this->title = 'Главная страница';
                 <div class="col-lg-12">
                     <div class="hero-containt">
                         <div class="hero-text text-area">
-                            <h1 data-animation="animated fadeInRight">Мы делаем жизнь наших пациентов лучше</h1>
+                            <h1 data-animation="animated fadeInRight"><?= Yii::t('site', 'Мы делаем жизнь наших пациентов лучше') ?></h1>
                             <p data-animation="animated fadeInRight"></p>
                             <div class="exper-button " data-animation="animated fadeInRight">
-                                <a href="services-v.1.html" class="team-1 btn-default">Связаться с нами</a>
+                                <a href="services-v.1.html" class="team-1 btn-default"><?= Yii::t('site', 'Связаться с нами') ?></a>
                             </div>
                         </div>
                     </div>
@@ -45,7 +48,7 @@ $this->title = 'Главная страница';
             <div class="intro-box">
                 <i class="icofont-wall-clock"></i>
                 <div class="inr">
-                    <h2>Всегда открыт</h2>
+                    <h2><?= Yii::t('site', 'Всегда открыт') ?></h2>
                     <p></p>
                 </div>
             </div>
@@ -54,7 +57,7 @@ $this->title = 'Главная страница';
             <div class="intro-box">
                 <i class="icofont-doctor"></i>
                 <div class="inr">
-                    <h2>Врачи-специалисты</h2>
+                    <h2><?= Yii::t('site', 'Врачи-специалисты') ?></h2>
                     <p></p>
                 </div>
             </div>
@@ -63,7 +66,7 @@ $this->title = 'Главная страница';
             <div class="intro-box">
                 <i class="icofont-ambulance"></i>
                 <div class="inr">
-                    <h2>Скорая помощь</h2>
+                    <h2><?= Yii::t('site', 'Скорая помощь') ?></h2>
                     <p></p>
                 </div>
             </div>
@@ -72,7 +75,7 @@ $this->title = 'Главная страница';
             <div class="intro-box" style="border-right:0">
                 <i class="icofont-blood-test"></i>
                 <div class="inr">
-                    <h2>Лабораторный тест</h2>
+                    <h2><?= Yii::t('site', 'Лабораторный тест') ?></h2>
                     <p></p>
                 </div>
             </div>
@@ -82,7 +85,7 @@ $this->title = 'Главная страница';
 
 <section class="advanced-area">
     <div class="container">
-        <h1>О нашем центре</h1>
+        <h1><?= Yii::t('site', 'О нашем центре') ?></h1>
         <div class="row">
             <div class="col-md-5 col-sm-12 col-xs-12 no-padding">
                 <div class="adv-img">
@@ -95,7 +98,7 @@ $this->title = 'Главная страница';
                 <div class="adv-detail">
                     <p>ГКП на ПХВ «ГОРОДСКОЙ ОНКОЛОГИЧЕСКИЙ ЦЕНТР» является единственным специализированным онкологическим учреждением области, оснащенный необходимым оборудованием и имеющим квалифицированные кадры врачей-онкологов. </p>
                     <div class="adv-bottom">
-                        <h3>Посетите нашу клинику круглосуточно</h3>
+                        <h3><?= Yii::t('site', 'Посетите нашу клинику круглосуточно') ?></h3>
                         <ul>
                             <li><b>Пн – Пт -</b> 9:00 - 18:00</li>
                             <li><b>Суббота -</b> 9:00 - 18:00</li>
@@ -133,7 +136,7 @@ $this->title = 'Главная страница';
                         <div class="col-md-12">
                             <div class="boxsed-shawo">
                                 <div class="form-area">
-                                    <h1>НАПИШИТЕ НАМ</h1>
+                                    <h1><?= Yii::t('site', 'НАПИШИТЕ НАМ') ?></h1>
                                     <form name="frmRequest" id="frmRequest" action="https://medics.themechampion.com/html/hospital/contact_process.php" method="post" class="form_wrap">
                                         <input type="hidden" name="frmRequestAnAppoint" name="frmRequestAnAppoint" value="frmRequestAnAppoint" />
                                         <div class="row">
@@ -148,7 +151,7 @@ $this->title = 'Главная страница';
                                             </div>
                                             <div class="col-md-6 col-sm-6 col-xs-12">
                                                 <div class="contact-button">
-                                                    <button type="submit" class="team-1 btn-submit">Отправить</button>
+                                                    <button type="submit" class="team-1 btn-submit"><?= Yii::t('site', 'Отправить') ?></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -165,66 +168,29 @@ $this->title = 'Главная страница';
 
 <section class="news-area">
     <div class="container">
-        <h1>Новости & Блог</h1>
-        <p>Последние новости нашей поликлиники</p>
+        <h1><?= Yii::t('site', 'Новости & Блог') ?></h1>
+        <p><?= Yii::t('site', 'Последние новости нашей поликлиники') ?></p>
         <div class="row">
-            <div class="col-lg-4 col-sm-6 col-xs-12">
-                <div class="news-box">
-                    <div class="news-inn">
-                        <img src="/img/news/n-1.png" class="img-responsive" alt="img">
-                    </div>
-                    <div class="news-text">
-                        <div class="liner">
-                            <h4 style="float:left"><i class="icofont-ui-calendar"></i> 26th March 2020</h4>
-                            <h4 style="float:right"><i class="icofont-user"></i> By Admin</h4>
+            <?php foreach ($latestNews as $post): ?>
+                <div class="col-lg-4 col-sm-6 col-xs-12">
+                    <div class="news-box">
+                        <div class="news-inn">
+                            <img src="<?= $post->getImage() ?>" class="img-responsive" alt="img">
                         </div>
-                        <a href="#">
-                            <h2>In this Hospital there are Special Surgeon</h2>
-                        </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua.</p>
-                        <a class="i-btn" href="#"><i class="icofont-double-right"></i></a>
+                        <div class="news-text">
+                            <div class="liner">
+                                <h4 style="float:left"><i class="icofont-ui-calendar"></i> <?= date('d.m.Y', $post->created_at) ?></h4>
+                                <h4 style="float:right"><i class="icofont-user"></i> By Admin</h4>
+                            </div>
+                            <a href="<?= Url::to(['post/view', 'id' => $post->id]) ?>">
+                                <h2><?= $post->getTitle() ?></h2>
+                            </a>
+                            <p><?= Post::cutString(strip_tags($post->getContent()), 365) ?></p>
+                            <a class="i-btn" href="<?= Url::to(['post/view', 'id' => $post->id]) ?>"><i class="icofont-double-right"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-xs-12">
-                <div class="news-box">
-                    <div class="news-inn">
-                        <img src="/img/news/n-2.png" class="img-responsive" alt="img">
-                    </div>
-                    <div class="news-text">
-                        <div class="liner">
-                            <h4 style="float:left"><i class="icofont-ui-calendar"></i> 12th Feb 2020</h4>
-                            <h4 style="float:right"><i class="icofont-user"></i> By Admin</h4>
-                        </div>
-                        <a href="#">
-                            <h2>In this Hospital there are Special Surgeon</h2>
-                        </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua.</p>
-                        <a class="i-btn" href="#"><i class="icofont-double-right "></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-xs-12">
-                <div class="news-box">
-                    <div class="news-inn">
-                        <img src="/img/news/n-3.png" class="img-responsive" alt="img">
-                    </div>
-                    <div class="news-text">
-                        <div class="liner">
-                            <h4 style="float:left"><i class="icofont-ui-calendar"></i> 05th Aug 2020</h4>
-                            <h4 style="float:right"><i class="icofont-user"></i> By Admin</h4>
-                        </div>
-                        <a href="#">
-                            <h2>In this Hospital there are Special Surgeon</h2>
-                        </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua.</p>
-                        <a class="i-btn" href="#"><i class="icofont-double-right "></i></a>
-                    </div>
-                </div>
-            </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </section>

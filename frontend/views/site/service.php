@@ -1,6 +1,7 @@
 <?php
 $this->title = Yii::t('site', 'Услуги');
 
+$this->params['title'][] = $this->title;
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="container mt-80 mb-80">

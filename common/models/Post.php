@@ -43,10 +43,9 @@ class Post extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['title'], 'required'],
-            [['content'], 'string'],
+            [['title_ru', 'title_kz'], 'required'],
+            [['content_ru', 'content_kz'], 'string'],
             [['created_at', 'updated_at'], 'integer'],
-            [['title', 'img'], 'string', 'max' => 255],
 
             [['imageFile'], 'file', 'skipOnEmpty' => true, 'extensions' => 'png, jpg, jpeg'],
         ];
@@ -59,10 +58,12 @@ class Post extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'title' => 'Наименование',
+            'title_ru' => 'Наименование (RU)',
+            'title_kz' => 'Наименование (KZ)',
             'img' => 'Рисунок',
             'imageFile' => 'Рисунок',
-            'content' => 'Контент',
+            'content_ru' => 'Контент (RU)',
+            'content_kz' => 'Контент (KZ)',
             'created_at' => 'Время добавления',
             'updated_at' => 'Время обновления',
         ];
@@ -103,7 +104,7 @@ class Post extends \yii\db\ActiveRecord
             return true;
         }
 
-        $folderPath = Yii::getAlias('@static') . '/posts';
+        $folderPath = Yii::getAlias('@static') . '/post';
 
         if (!file_exists($folderPath) && !mkdir($folderPath, 0777, true) && !is_dir($folderPath)) {
             throw new \RuntimeException(sprintf('Directory "%s" was not created', $folderPath));

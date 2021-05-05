@@ -27,4 +27,29 @@ class StaticController extends Controller
     {
         return $this->render('structure');
     }
+
+    public function actionMedicine()
+    {
+        return $this->render('medicine');
+    }
+
+    public function actionScreening()
+    {
+        return $this->render('screening');
+    }
+
+    public function actionSpecialist()
+    {
+        return $this->render('specialist');
+    }
+
+    public function actionPeople()
+    {
+        return $this->render('people');
+    }
+
+    public function actionLicence()
+    {
+        return $this->render('licence');
+    }
 }

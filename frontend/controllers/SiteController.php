@@ -80,7 +80,11 @@ class SiteController extends Controller
     {
         $this->layout = 'home';
 
-        return $this->render('index');
+        $latestNews = Post::find()->orderBy(['id' => SORT_DESC])->limit(3)->all();
+
+        return $this->render('index', [
+            'latestNews' => $latestNews
+        ]);
     }
 
     /**

@@ -64,14 +64,10 @@ use yii\helpers\Url;
                             <li><a href="<?= Url::to(['static/specialist']) ?>"><?= Yii::t('site', 'Специалисты') ?></a></li>
                             <li><a href="<?= Url::to(['static/people']) ?>"><?= Yii::t('site', 'Населению') ?></a></li>
                             <li><a href="<?= Url::to(['static/licence']) ?>"><?= Yii::t('site', 'Лицензия') ?></a></li>
-                            <li><a href="<?= Url::to(['static/vacancy']) ?>"><?= Yii::t('site', 'Вакансии') ?></a></li>
-                            <li><a href="<?= Url::to(['static/purchase']) ?>"><?= Yii::t('site', 'Государственные закупки') ?></a></li>
-                            <li><a href="<?= Url::to(['static/corruption']) ?>"><?= Yii::t('site', 'Противодействие коррупции') ?></a></li>
-                            <li><a href="<?= Url::to(['static/government-services-standard']) ?>"><?= Yii::t('site', 'Стандарты государственных услуг в сфере здравоохранения') ?></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="<?= Url::to(['static/services']) ?>"><?= Yii::t('site', 'Услуги') ?></a>
+                        <a href="<?= Url::to(['site/service']) ?>"><?= Yii::t('site', 'Услуги') ?></a>
                     </li>
                     <li>
                         <a href="<?= Url::to(['post/index']) ?>">Новости</a>
@@ -84,18 +80,9 @@ use yii\helpers\Url;
                     <div class="headerButton">
                         <a class="acctivee" href="appoinment.html"><?= Yii::t('site', 'Записаться') ?></a>
                     </div>
-                    <div class="search-column search-con">
-                        <div id="searchlink" class="searchlink">
-                            <div class="searchform">
-                                <form id="search">
-                                    <input type="text" class="s" id="s" name="s" placeholder="keywords...">
-                                    <button type="submit" class="sbtn">Search Now</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="header-socials">
-                        <a href="#" class="cartButton"><i class="fas fa-shopping-cart"></i></a>
+                    <div class="header-socials pt-3">
+                        <a href="<?= Url::to(array_merge(\Yii::$app->request->get(), [\Yii::$app->controller->route, 'language' => 'ru'])) ?>" class="cartButton text-white">RU</a>
+                        <a href="<?= Url::to(array_merge(\Yii::$app->request->get(), [\Yii::$app->controller->route, 'language' => 'kz'])) ?>" class="cartButton text-white">KZ</a>
                     </div>
                 </div>
             </div>
