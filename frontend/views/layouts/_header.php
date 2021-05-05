@@ -54,7 +54,7 @@ use yii\helpers\Url;
                         <a href="/" class="active"><?= Yii::t('site', 'Главная') ?></a>
                     </li>
                     <li class="dropdown">
-                        <a href="about-v.1.html"><?= Yii::t('site', 'О центре') ?></a><i class="fa fa-chevron-down"></i>
+                        <a href="<?= Url::to(['static/about']) ?>"><?= Yii::t('site', 'О центре') ?></a><i class="fa fa-chevron-down"></i>
                         <ul class="dropdown-submenu">
                             <li><a href="<?= Url::to(['static/target']) ?>"><?= Yii::t('site', 'Цели и задачи') ?></a></li>
                             <li><a href="<?= Url::to(['static/about']) ?>"><?= Yii::t('site', 'О деятельности') ?></a></li>

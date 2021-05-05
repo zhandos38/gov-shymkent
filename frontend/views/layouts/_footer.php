@@ -66,3 +66,23 @@ use yii\helpers\Url;
     </div>
     <a href="#" class="go-top"><i class="fas fa-arrow-up"></i></a>
 </footer>
+
+<div id="back"><i class="ion-chevron-up-sharp"></i></div>
+
+<!-- Modal -->
+<div class="modal fade" id="modal-video" data-open-onload="false" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="ion-close-sharp"></i></button>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div id="video-container"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
