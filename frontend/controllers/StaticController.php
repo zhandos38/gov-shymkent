@@ -52,4 +52,19 @@ class StaticController extends Controller
     {
         return $this->render('licence');
     }
+
+    public function actionGynecology()
+    {
+        return $this->render('gynecology');
+    }
+
+    public function actionLight()
+    {
+        return $this->render('light');
+    }
+
+    public function actionBreastSurgery()
+    {
+        return $this->render('breast-surgery');
+    }
 }

@@ -110,6 +110,61 @@ $this->title = 'Главная страница';
         </div>
     </div>
 </section>
+<section class="services-area">
+    <div class="container">
+        <h1>Наши услуги</h1>
+        <div class="services-box mt-3">
+            <a href="<?= Url::to(['static/gynecology']) ?>" class="per-box">
+                <img src="/img/services/s-12.png" alt="img">
+                <h3><?= Yii::t('site', 'Гинекология') ?></h3>
+            </a>
+            <a href="<?= Url::to(['static/light']) ?>" class="per-box">
+                <i class="far fa-bolt"></i>
+                <h3><?= Yii::t('site', 'Лучевая диагностика') ?></h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-6.png" alt="img">
+                <h3>Грудная хирургия</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-4.png" alt="img">
+                <h3>Отделение хирургий</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-5.png" alt="img">
+                <h3>Консультативно-диагностического отделения</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-3.png" alt="img">
+                <h3>Отделение анестезии</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-7.png" alt="img">
+                <h3>Отделение химиотерапии</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-8.png" alt="img">
+                <h3>Дневной стационар</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-9.png" alt="img">
+                <h3>Цито-гистологическая лаборатория</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <img src="/img/services/s-10.png" alt="img">
+                <h3>Отделение интенсивной терапии</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <i class="far fa-procedures"></i>
+                <h3>Отделение реанимации</h3>
+            </a>
+            <a href="services-details.v.1.html" class="per-box">
+                <i class="far fa-heartbeat"></i>
+                <h3>Отделение эндоваскулярной онкологии</h3>
+            </a>
+        </div>
+    </div>
+</section>
 <div class="clearfix"></div>
 <div class="doctor-area ">
     <div class="container">
