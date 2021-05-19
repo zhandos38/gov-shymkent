@@ -6,16 +6,16 @@ use yii\helpers\Url;
 $this->title = 'Главная страница';
 ?>
 <div class="hero-active  owl-carousel">
-    <div class="hero-area" style="background-image: url(/img/banner/slider-1.png)">
+    <div class="hero-area" style="background-image: url(/img/back1.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="hero-containt">
                         <div class="hero-text text-area">
-                            <h1 data-animation="animated fadeInRight"><?= Yii::t('site', 'Личная забота для вашего здорового образа жизни') ?></h1>
+                            <h1 class="text-white" data-animation="animated fadeInRight"><?= Yii::t('site', 'Личная забота для вашего здорового образа жизни') ?></h1>
                             <p data-animation="animated fadeInRight"></p>
                             <div class="exper-button " data-animation="animated fadeInRight">
-                                <a href="services-v.1.html" class="team-1 btn-default"><?= Yii::t('site', 'Связаться с нами') ?></a>
+                                <a href="#" class="team-1 btn-default"><?= Yii::t('site', 'Связаться с нами') ?></a>
                             </div>
                         </div>
                     </div>
@@ -32,7 +32,7 @@ $this->title = 'Главная страница';
                             <h1 data-animation="animated fadeInRight"><?= Yii::t('site', 'Мы делаем жизнь наших пациентов лучше') ?></h1>
                             <p data-animation="animated fadeInRight"></p>
                             <div class="exper-button " data-animation="animated fadeInRight">
-                                <a href="services-v.1.html" class="team-1 btn-default"><?= Yii::t('site', 'Связаться с нами') ?></a>
+                                <a href="#" class="team-1 btn-default"><?= Yii::t('site', 'Связаться с нами') ?></a>
                             </div>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ $this->title = 'Главная страница';
         <div class="row">
             <div class="col-md-5 col-sm-12 col-xs-12 no-padding">
                 <div class="adv-img">
-                    <img class="main" src="/img/interface/advance.png" alt="adv1">
+                    <img class="main" src="/img/director.jpg" alt="adv1">
                     <img class="first" src="/img/interface/advance-1.png" alt="adv2">
                     <img class="second" src="/img/interface/advance2.png" alt="adv3">
                 </div>
@@ -100,9 +100,9 @@ $this->title = 'Главная страница';
                     <div class="adv-bottom">
                         <h3><?= Yii::t('site', 'Посетите нашу клинику круглосуточно') ?></h3>
                         <ul>
-                            <li><b>Пн – Пт -</b> 9:00 - 18:00</li>
-                            <li><b>Суббота -</b> 9:00 - 18:00</li>
-                            <li><b>Воскресенье -</b> Закрыто</li>
+                            <li><b><?= Yii::t('site', 'Пн – Пт') ?> -</b> 9:00 - 18:00</li>
+                            <li><b><?= Yii::t('site', 'Суббота') ?> -</b> 9:00 - 18:00</li>
+                            <li><b><?= Yii::t('site', 'Воскресенье') ?> -</b> <?= Yii::t('site', 'Закрыто') ?></li>
                         </ul>
                     </div>
                 </div>

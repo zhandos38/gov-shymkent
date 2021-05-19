@@ -67,4 +67,34 @@ class StaticController extends Controller
     {
         return $this->render('breast-surgery');
     }
+
+    public function actionMammalogy()
+    {
+        return $this->render('mammalogy');
+    }
+
+    public function actionAnestasy()
+    {
+        return $this->render('anestasy');
+    }
+
+    public function actionRadiogynecology()
+    {
+        return $this->render('radiogynecology');
+    }
+
+    public function actionConsult()
+    {
+        return $this->render('consult');
+    }
+
+    public function actionDay()
+    {
+        return $this->render('day');
+    }
+
+    public function actionCisto()
+    {
+        return $this->render('cisto');
+    }
 }
