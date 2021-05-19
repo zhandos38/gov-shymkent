@@ -66,8 +66,18 @@ use yii\helpers\Url;
                             <li><a href="<?= Url::to(['static/licence']) ?>"><?= Yii::t('site', 'Лицензия') ?></a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="<?= Url::to(['site/service']) ?>"><?= Yii::t('site', 'Услуги') ?></a>
+                    <li class="dropdown">
+                        <a href="<?= Url::to(['site/service']) ?>"><?= Yii::t('site', 'Клиника') ?></a><i class="fa fa-chevron-down"></i>
+                        <ul class="dropdown-submenu">
+                            <li><a href="<?= Url::to(['static/target']) ?>"><?= Yii::t('site', 'Цели и задачи') ?></a></li>
+                            <li><a href="<?= Url::to(['static/about']) ?>"><?= Yii::t('site', 'О деятельности') ?></a></li>
+                            <li><a href="<?= Url::to(['static/structure']) ?>"><?= Yii::t('site', 'Структура') ?></a></li>
+                            <li><a href="<?= Url::to(['static/medicine']) ?>"><?= Yii::t('site', 'Лекарственное обеспечение') ?></a></li>
+                            <li><a href="<?= Url::to(['static/screening']) ?>"><?= Yii::t('site', 'Скрининг населения') ?></a></li>
+                            <li><a href="<?= Url::to(['static/specialist']) ?>"><?= Yii::t('site', 'Специалисты') ?></a></li>
+                            <li><a href="<?= Url::to(['static/people']) ?>"><?= Yii::t('site', 'Населению') ?></a></li>
+                            <li><a href="<?= Url::to(['static/licence']) ?>"><?= Yii::t('site', 'Лицензия') ?></a></li>
+                        </ul>
                     </li>
                     <li>
                         <a href="<?= Url::to(['post/index']) ?>">Новости</a>
