@@ -2,7 +2,6 @@
 $this->title = Yii::t('site', 'О центре');
 
 $this->params['title'][] = $this->title;
-$this->params['breadcrumbs'][] = ['label' => Yii::t('site', 'О центре'), 'url' => ['static/about']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="clearfix grpelem" id="u1397-58" data-muse-uid="U1397" data-muse-type="txt_frame" data-ibe-flags="txtStyleSrc" data-sizepolicy="fixed" data-pintopage="page_fluidx"><!-- content -->

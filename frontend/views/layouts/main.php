@@ -41,7 +41,7 @@ AppAsset::register($this);
         <div class="row">
             <div class="col-lg-12">
                 <div class="hero-about-text text-center">
-                    <h2><?= $this->params['title'][0] ?></h2>
+                    <h2 class="text-white"><?= $this->params['title'][0] ?></h2>
                     <h4>
                         <?= Breadcrumbs::widget([
                             'options' => [
