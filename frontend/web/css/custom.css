@@ -5,3 +5,7 @@
 .services-box .per-box i {
     font-size: 86px;
 }
+
+.card-text {
+    padding: 0 !important;
+}

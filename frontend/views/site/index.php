@@ -89,7 +89,13 @@ $this->title = 'Главная страница';
         <div class="row">
             <div class="col-md-5 col-sm-12 col-xs-12 no-padding">
                 <div class="adv-img">
-                    <img class="main" src="/img/director.jpg" alt="adv1">
+                    <div>
+                        <img class="main" src="/img/director.jpg" alt="adv1" style="padding-bottom: 10px">
+                        <div class="text-center" style="padding-bottom: 10px; background-color: white">
+                            <div style="font-size: 22px;">Мауленов Жаксылык Оразбайұлы</div>
+                            <div><b>Директор</b></div>
+                        </div>
+                    </div>
                     <img class="first" src="/img/interface/advance-1.png" alt="adv2">
                     <img class="second" src="/img/interface/advance2.png" alt="adv3">
                 </div>
@@ -136,7 +142,7 @@ $this->title = 'Главная страница';
             </a>
             <a href="services-details.v.1.html" class="per-box">
                 <img src="/img/services/s-3.png" alt="img">
-                <h3>Отделение анестезии</h3>
+                <h3>Отделение анестезиологии и реанимации и интенсивной терапии</h3>
             </a>
             <a href="services-details.v.1.html" class="per-box">
                 <img src="/img/services/s-7.png" alt="img">
@@ -152,11 +158,11 @@ $this->title = 'Главная страница';
             </a>
             <a href="services-details.v.1.html" class="per-box">
                 <img src="/img/services/s-10.png" alt="img">
-                <h3>Отделение интенсивной терапии</h3>
+                <h3>Отделение гинекологии</h3>
             </a>
             <a href="services-details.v.1.html" class="per-box">
                 <i class="far fa-procedures"></i>
-                <h3>Отделение реанимации</h3>
+                <h3>Отделение химиотерапии</h3>
             </a>
             <a href="services-details.v.1.html" class="per-box">
                 <i class="far fa-heartbeat"></i>

@@ -97,4 +97,14 @@ class StaticController extends Controller
     {
         return $this->render('cisto');
     }
+
+    public function actionDirector()
+    {
+        return $this->render('director');
+    }
+
+    public function actionVice()
+    {
+        return $this->render('vice');
+    }
 }

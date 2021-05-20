@@ -44,9 +44,12 @@ use yii\helpers\Url;
                 <div class="logo-menu"><a href="index.html"><img src="/img/about/logo.png" alt="logo"></a>
                 </div>
                 <button type="button" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false"
-                        class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span
-                            class="icon-bar"></span><span class="icon-bar"></span><span
-                            class="icon-bar"></span></button>
+                        class="navbar-toggle collapsed">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
             <div id="main-navigation" class="collapse navbar-collapse ">
                 <ul class="nav navbar-nav">
@@ -58,6 +61,13 @@ use yii\helpers\Url;
                         <ul class="dropdown-submenu">
                             <li><a href="<?= Url::to(['static/target']) ?>"><?= Yii::t('site', 'Цели и задачи') ?></a></li>
                             <li><a href="<?= Url::to(['static/about']) ?>"><?= Yii::t('site', 'О деятельности') ?></a></li>
+                            <li class="submenu_child">
+                                <a href="#"><?= Yii::t('site', 'Администрация') ?></a><i class="fa fa-chevron-down"></i>
+                                <ul class="dropdown-submenu second_submenu">
+                                    <li><a href="<?= Url::to(['static/director']) ?>"><?= Yii::t('site', 'Директор') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Заместители') ?></a></li>
+                                </ul>
+                            </li>
                             <li><a href="<?= Url::to(['static/structure']) ?>"><?= Yii::t('site', 'Структура') ?></a></li>
                             <li><a href="<?= Url::to(['static/medicine']) ?>"><?= Yii::t('site', 'Лекарственное обеспечение') ?></a></li>
                             <li><a href="<?= Url::to(['static/screening']) ?>"><?= Yii::t('site', 'Скрининг населения') ?></a></li>
@@ -104,7 +114,7 @@ use yii\helpers\Url;
                 </ul>
                 <div class="header-nav-right">
                     <div class="headerButton">
-                        <a class="acctivee" href="appoinment.html"><?= Yii::t('site', 'Записаться') ?></a>
+                        <a class="acctivee" href="#"><?= Yii::t('site', 'Записаться') ?></a>
                     </div>
                     <div class="header-socials pt-3">
                         <a href="<?= Url::to(array_merge(\Yii::$app->request->get(), [\Yii::$app->controller->route, 'language' => 'ru'])) ?>" class="cartButton text-white">RU</a>
