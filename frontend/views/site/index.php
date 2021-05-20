@@ -90,11 +90,7 @@ $this->title = 'Главная страница';
             <div class="col-md-5 col-sm-12 col-xs-12 no-padding">
                 <div class="adv-img">
                     <div>
-                        <img class="main" src="/img/director.jpg" alt="adv1" style="padding-bottom: 10px">
-                        <div class="text-center" style="padding-bottom: 10px; background-color: white">
-                            <div style="font-size: 22px;">Мауленов Жаксылык Оразбайұлы</div>
-                            <div><b>Директор</b></div>
-                        </div>
+                        <img class="main" src="/img/building.jpeg" alt="adv1" style="padding-bottom: 10px">
                     </div>
                     <img class="first" src="/img/interface/advance-1.png" alt="adv2">
                     <img class="second" src="/img/interface/advance2.png" alt="adv3">
