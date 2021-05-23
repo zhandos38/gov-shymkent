@@ -23,13 +23,13 @@ $this->title = 'Главная страница';
             </div>
         </div>
     </div>
-    <div class="hero-area" style="background-image: url(/img/banner/slider-3.jpg)">
+    <div class="hero-area" style="background-image: url(/img/scale_1200.webp)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="hero-containt">
                         <div class="hero-text text-area">
-                            <h1 data-animation="animated fadeInRight"><?= Yii::t('site', 'Мы делаем жизнь наших пациентов лучше') ?></h1>
+                            <h1 class="text-white" data-animation="animated fadeInRight"><?= Yii::t('site', 'Мы делаем жизнь наших пациентов лучше') ?></h1>
                             <p data-animation="animated fadeInRight"></p>
                             <div class="exper-button " data-animation="animated fadeInRight">
                                 <a href="#" class="team-1 btn-default"><?= Yii::t('site', 'Связаться с нами') ?></a>

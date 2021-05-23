@@ -107,4 +107,9 @@ class StaticController extends Controller
     {
         return $this->render('vice');
     }
+
+    public function actionChem()
+    {
+        return $this->render('chem');
+    }
 }

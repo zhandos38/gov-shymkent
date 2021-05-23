@@ -5,16 +5,17 @@ $this->params['title'][] = $this->title;
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <h4><strong>Отделение радиогинекологии ГОЦ</strong></h4>
-<div class="text-center">
-    <img src="/img/radio1.jpg" alt="radio1">
-    <p class="pt-3"><b>Югай Константин Викторович</b></p>
+<div class="float-left mb-5 mr-5 w-50">
+    <img src="/img/radio.jpg" alt="image">
+</div>
+<div>
+    <p><b>Югай Константин Викторович</b></p>
     <p>Заведующий отделением</p>
     <p>Врач онколог высшей квалификационной категории,</p>
     <p>Кандидат медицинских наук</p>
 </div>
-<div class="text-center mt-5">
-    <img src="/img/radio2.jpg" alt="radio1">
-    <p class="pt-3"><b>Жаикбаева Нурайна Сыргабаевна</b></p>
+<div>
+    <p><b>Жаикбаева Нурайна Сыргабаевна</b></p>
     <p>Старшая медсестра</p>
     <p>Квалификационная категория высшая</p>
 </div>

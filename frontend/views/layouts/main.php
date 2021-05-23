@@ -41,16 +41,16 @@ AppAsset::register($this);
         <div class="row">
             <div class="col-lg-12">
                 <div class="hero-about-text text-center">
-                    <h2 class="text-white"><?= $this->params['title'][0] ?></h2>
-                    <h4>
+                    <h2><?= $this->params['title'][0] ?></h2>
+                    <div>
                         <?= Breadcrumbs::widget([
                             'options' => [
-                                'style' => 'display: flex; margin: 0 auto;'//добавили
+                                'style' => 'display: flex; margin: 0 auto; justify-content: center;'//добавили
                             ],
                             'itemTemplate' => '<li>{link}<span style="padding: 0 5px">/</span></li>',
                             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
                         ]) ?>
-                    </h4>
+                    </div>
                 </div>
             </div>
         </div>
