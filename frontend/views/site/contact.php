@@ -25,7 +25,7 @@ use yii\helpers\Url; ?>
                 <div class="con-body">
                     <h5 class="heading font-bold d-flex align-items-center mb-10"><?= Yii::t('site', 'Номера телефона') ?></h5>
                     <p class="mb-0 h6">Приемная главного врача: 36-11-13</p>
-                    <p class="mb-0 h6">Телефон доверия: 36-11-13</p>
+                    <p class="mb-0 h6">Телефон доверия: 36-12-40</p>
                     <p class="mb-0 h6">Зам. главного врача: 41-71-30</p>
                     <p class="mb-0 h6">Бухгалтерия: 36-11-10</p>
                     <p class="mb-0 h6">Регистратура: 36-11-17</p>

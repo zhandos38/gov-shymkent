@@ -31,7 +31,7 @@ use yii\helpers\Url;
                             <li><a href="<?= Url::to(['site/about']) ?>">О центре</a></li>
                             <li><a href="<?= Url::to(['site/services']) ?>">Услуги</a></li>
                             <li><a href="<?= Url::to(['site/news']) ?>">Новости</a></li>
-                            <li><a href="<?= Url::to(['site/contact']) ?>">Конакты</a></li>
+                            <li><a href="<?= Url::to(['site/contact']) ?>">Контакты</a></li>
                         </ul>
                     </div>
                 </div>
