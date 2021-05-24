@@ -23,14 +23,14 @@ use yii\helpers\Url;
                             <i class="icofont-phone"></i>
                             <div class="info">
                                 <h4>Телефон доверия</h4>
-                                <h6><a href="tel:87252361113">+7 (7252) 36 11 13</a></h6>
+                                <h6><a href="tel:87252361113">+7 (7252) 383-383</a></h6>
                             </div>
                         </div>
                         <div class="left-location textright">
                             <i class="icofont-wall-clock"></i>
                             <div class="info">
-                                <h4>Без выходных</h4>
-                                <h6>24/7</h6>
+                                <h4>Режим работы</h4>
+                                <h6>Пн-Сб 8:00-17:00</h6>
                             </div>
                         </div>
                     </div>
@@ -107,6 +107,9 @@ use yii\helpers\Url;
                     </li>
                     <li>
                         <a href="<?= Url::to(['post/index']) ?>">Новости</a>
+                    </li>
+                    <li>
+                        <a href="<?= Url::to(['post/index']) ?>"><?= Yii::t('site', 'Государственные закупки') ?></a>
                     </li>
                     <li>
                         <a href="<?= Url::to(['site/contact']) ?>"><?= Yii::t('site', 'Контакты') ?></a>

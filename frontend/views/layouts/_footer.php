@@ -16,9 +16,9 @@ use yii\helpers\Url;
                         <address>
                             <ul class="text-foot">
                                 <li><i class="icofont-google-map"></i> г.Шымкент, Байтурсынова, 85a</li>
-                                <li><i class="icofont-phone"></i><a href="tel:+12396661985">Телефон доверия +7(7252) 36-11-13</a></li>
-                                <li><i class="icofont-phone"></i><a href="tel:+12396661985">Cправочная служба +7(7252) 36-11-08</a></li>
-                                <li><i class="icofont-phone"></i><a href="tel:+12396661985">Cправочная служба +7(7252) 36-11-17</a></li>
+                                <li><i class="icofont-phone"></i><a href="tel:+12396661985">Регистратура +7(7252) 38-00-70</a></li>
+                                <li><i class="icofont-phone"></i><a href="tel:+12396661985">Телефон доверия +7(7252) 38-00-72</a></li>
+                                <li><i class="icofont-phone"></i><a href="tel:+12396661985">Коллцентра +7(7252) 38-33-83</a></li>
                             </ul>
                         </address>
                     </div>
@@ -49,9 +49,9 @@ use yii\helpers\Url;
                         <h1>Социальные сети</h1>
                         <p style="padding:0">Подписовайтесь на наши соц. сети</p>
                         <ul class="social">
-                            <li><a href="#"><i class="icofont-facebook"></i></a></li>
+                            <li><a href="https://www.facebook.com/%D0%93%D0%9E%D0%A6-%D0%A8%D1%8B%D0%BC%D0%BA%D0%B5%D0%BD%D1%82-360846874724636/"><i class="icofont-facebook"></i></a></li>
                             <li><a href="#"><i class="icofont-twitter"></i></a></li>
-                            <li><a href="#"><i class="icofont-instagram"></i></a></li>
+                            <li><a href="https://www.instagram.com/gocshymkent/?hl=en"><i class="icofont-instagram"></i></a></li>
                             <li><a href="#"><i class="icofont-linkedin"></i></a></li>
                         </ul>
                     </div>

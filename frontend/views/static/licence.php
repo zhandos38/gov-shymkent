@@ -5,7 +5,7 @@ $this->params['title'][] = $this->title;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('site', 'О центре'), 'url' => ['static/about']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div>
-    <a href="/">Приложение к государственной лицензий</a><br>
-    <a href="/">Справка о перерегистрации юридического лица</a>
-</div>
+<h2>
+    Лицензия
+</h2>
+<iframe src="/files/Лицензия.pdf" frameborder="0" width="100%" height="800px"></iframe>

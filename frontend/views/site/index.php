@@ -169,9 +169,8 @@ $this->title = 'Главная страница';
                     <div class="advance-bottom">
                         <h3><?= Yii::t('site', 'Посетите нашу клинику круглосуточно') ?></h3>
                         <ul>
-                            <li><b><?= Yii::t('site', 'Пн – Пт') ?> -</b> 9:00 - 18:00</li>
-                            <li><b><?= Yii::t('site', 'Суббота') ?> -</b> 9:00 - 18:00</li>
-                            <li><b><?= Yii::t('site', 'Воскресенье') ?> -</b> <?= Yii::t('site', 'Закрыто') ?></li>
+                            <li><b><?= Yii::t('site', 'Пн – Пт') ?> -</b> 8:00 - 17:00</li>
+                            <li><b><?= Yii::t('site', 'Суббота') ?> -</b> 8:00 - 17:00</li>
                         </ul>
                     </div>
                 </div>
@@ -192,19 +191,15 @@ $this->title = 'Главная страница';
                 <h3><?= Yii::t('site', 'Лучевая диагностика') ?></h3>
             </a>
             <a href="services-details.v.1.html" class="per-box">
-                <img src="/img/services/s-6.png" alt="img">
-                <h3>Грудная хирургия</h3>
-            </a>
-            <a href="services-details.v.1.html" class="per-box">
                 <img src="/img/services/s-4.png" alt="img">
                 <h3>Отделение хирургий</h3>
             </a>
             <a href="services-details.v.1.html" class="per-box">
-                <img src="/img/services/s-5.png" alt="img">
+                <img src="/img/services/s-10.png" alt="img">
                 <h3>Консультативно-диагностического отделения</h3>
             </a>
             <a href="services-details.v.1.html" class="per-box">
-                <img src="/img/services/s-3.png" alt="img">
+                <i class="far fa-procedures"></i>
                 <h3>Отделение анестезиологии и реанимации и интенсивной терапии</h3>
             </a>
             <a href="services-details.v.1.html" class="per-box">
@@ -220,11 +215,7 @@ $this->title = 'Главная страница';
                 <h3>Цито-гистологическая лаборатория</h3>
             </a>
             <a href="services-details.v.1.html" class="per-box">
-                <img src="/img/services/s-10.png" alt="img">
-                <h3>Отделение гинекологии</h3>
-            </a>
-            <a href="services-details.v.1.html" class="per-box">
-                <i class="far fa-procedures"></i>
+                <i class="fas fa-pills"></i>
                 <h3>Отделение химиотерапии</h3>
             </a>
             <a href="services-details.v.1.html" class="per-box">

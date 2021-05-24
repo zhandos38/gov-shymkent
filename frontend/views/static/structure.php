@@ -5,6 +5,10 @@ $this->params['title'][] = $this->title;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('site', 'О центре'), 'url' => ['static/about']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+<h2>Структура</h2>
+<div class="mb-5">
+    <img src="/img/Структура.jpg" alt="logo">
+</div>
 <h4>
     Стационарная помощь
 </h4>

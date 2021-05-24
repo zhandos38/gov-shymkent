@@ -10,6 +10,10 @@
     padding: 0 !important;
 }
 
+.services-box .per-box h3 {
+    font-size: 16px;
+}
+
 .hero-about-area {
-    background-image: url(/img/banner/inner-banner-1.png) !important;
+    background-image: url(/img/hero-back.png) !important;
 }
