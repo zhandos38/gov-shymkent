@@ -17,3 +17,27 @@
 .hero-about-area {
     background-image: url(/img/hero-back.png) !important;
 }
+
+.header1 #main-navigation-wrapper .nav>li>a {
+    font-size: 13px;
+}
+
+.acctivee::before {
+    position: absolute;
+    content: "";
+    background: #DE2068;
+    height: 100%;
+    width: 82%;
+    z-index: -1;
+    height: 170px;
+    top: -40px;
+    transform: translateY(-50%);
+    transform: rotate(18deg);
+    left: -11px;
+    margin: auto;
+    right: 0;
+}
+
+.headerButton a {
+    font-size: 12px;
+}

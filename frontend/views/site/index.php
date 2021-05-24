@@ -64,9 +64,9 @@ $this->title = 'Главная страница';
         </div>
         <div class="col-lg-3 col-sm-6 col-xs-12 no-padding">
             <div class="intro-box">
-                <i class="icofont-ambulance"></i>
+                <i class="far fa-procedures"></i>
                 <div class="inr">
-                    <h2><?= Yii::t('site', 'Скорая помощь') ?></h2>
+                    <h2><?= Yii::t('site', 'Паллиативная помощь') ?></h2>
                     <p></p>
                 </div>
             </div>
@@ -167,7 +167,7 @@ $this->title = 'Главная страница';
                         </div>
                     <?php endif; ?>
                     <div class="advance-bottom">
-                        <h3><?= Yii::t('site', 'Посетите нашу клинику круглосуточно') ?></h3>
+                        <h3><?= Yii::t('site', 'Посетите наш центр') ?></h3>
                         <ul>
                             <li><b><?= Yii::t('site', 'Пн – Пт') ?> -</b> 8:00 - 17:00</li>
                             <li><b><?= Yii::t('site', 'Суббота') ?> -</b> 8:00 - 17:00</li>
@@ -184,7 +184,7 @@ $this->title = 'Главная страница';
         <div class="services-box mt-3">
             <a href="<?= Url::to(['static/gynecology']) ?>" class="per-box">
                 <img src="/img/services/s-12.png" alt="img">
-                <h3><?= Yii::t('site', 'Гинекология') ?></h3>
+                <h3><?= Yii::t('site', 'Радиогинекология') ?></h3>
             </a>
             <a href="<?= Url::to(['static/light']) ?>" class="per-box">
                 <i class="far fa-bolt"></i>
@@ -194,33 +194,25 @@ $this->title = 'Главная страница';
                 <img src="/img/services/s-4.png" alt="img">
                 <h3>Отделение хирургий</h3>
             </a>
-            <a href="services-details.v.1.html" class="per-box">
+            <a href="<?= Url::to(['static/consult']) ?>" class="per-box">
                 <img src="/img/services/s-10.png" alt="img">
                 <h3>Консультативно-диагностического отделения</h3>
             </a>
-            <a href="services-details.v.1.html" class="per-box">
+            <a href="<?= Url::to(['static/anestasy']) ?>" class="per-box">
                 <i class="far fa-procedures"></i>
                 <h3>Отделение анестезиологии и реанимации и интенсивной терапии</h3>
             </a>
-            <a href="services-details.v.1.html" class="per-box">
+            <a href="<?= Url::to(['static/chem']) ?>" class="per-box">
                 <img src="/img/services/s-7.png" alt="img">
                 <h3>Отделение химиотерапии</h3>
             </a>
-            <a href="services-details.v.1.html" class="per-box">
+            <a href="<?= Url::to(['static/day']) ?>" class="per-box">
                 <img src="/img/services/s-8.png" alt="img">
                 <h3>Дневной стационар</h3>
             </a>
-            <a href="services-details.v.1.html" class="per-box">
+            <a href="<?= Url::to(['static/cisto']) ?>" class="per-box">
                 <img src="/img/services/s-9.png" alt="img">
                 <h3>Цито-гистологическая лаборатория</h3>
-            </a>
-            <a href="services-details.v.1.html" class="per-box">
-                <i class="fas fa-pills"></i>
-                <h3>Отделение химиотерапии</h3>
-            </a>
-            <a href="services-details.v.1.html" class="per-box">
-                <i class="far fa-heartbeat"></i>
-                <h3>Отделение эндоваскулярной онкологии</h3>
             </a>
         </div>
     </div>

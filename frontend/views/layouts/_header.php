@@ -117,7 +117,7 @@ use yii\helpers\Url;
                 </ul>
                 <div class="header-nav-right">
                     <div class="headerButton">
-                        <a class="acctivee" href="#"><?= Yii::t('site', 'Записаться') ?></a>
+                        <a class="acctivee" href="#"><?= Yii::t('site', 'Корпаративное управление') ?></a>
                     </div>
                     <div class="header-socials pt-3">
                         <a href="<?= Url::to(array_merge(\Yii::$app->request->get(), [\Yii::$app->controller->route, 'language' => 'ru'])) ?>" class="cartButton text-white">RU</a>
