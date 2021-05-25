@@ -112,4 +112,9 @@ class StaticController extends Controller
     {
         return $this->render('chem');
     }
+
+    public function actionCodex()
+    {
+        return $this->render('codex');
+    }
 }

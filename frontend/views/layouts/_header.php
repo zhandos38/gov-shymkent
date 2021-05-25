@@ -30,7 +30,7 @@ use yii\helpers\Url;
                             <i class="icofont-wall-clock"></i>
                             <div class="info">
                                 <h4>Режим работы</h4>
-                                <h6>Пн-Сб 8:00-17:00</h6>
+                                <h6>Пн-Пт 8:00-17:00</h6>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ use yii\helpers\Url;
     <nav id="main-navigation-wrapper" class="navbar navbar-default header-middle">
         <div class="container">
             <div class="navbar-header">
-                <div class="logo-menu"><a href="index.html"><img src="/img/about/logo.png" alt="logo"></a>
+                <div class="logo-menu"><a href="/"><img src="/img/about/logo.png" alt="logo"></a>
                 </div>
                 <button type="button" data-toggle="collapse" data-target="#main-navigation" aria-expanded="false"
                         class="navbar-toggle collapsed">
@@ -108,6 +108,40 @@ use yii\helpers\Url;
                     <li>
                         <a href="<?= Url::to(['post/index']) ?>">Новости</a>
                     </li>
+                    <li class="dropdown">
+                        <a href="<?= Url::to(['static/about']) ?>"><?= Yii::t('site', 'Корпоративное управление') ?></a><i class="fa fa-chevron-down"></i>
+                        <ul class="dropdown-submenu">
+                            <li><a href="<?= Url::to(['static/codex']) ?>"><?= Yii::t('site', 'Кодекс корпоративного управления') ?></a></li>
+                            <li class="submenu_child">
+                                <a href="#"><?= Yii::t('site', 'Лицензия') ?></a><i class="fa fa-chevron-down"></i>
+                                <ul class="dropdown-submenu second_submenu">
+                                    <li><a href="<?= Url::to(['static/director']) ?>"><?= Yii::t('site', 'Лицензионный договор') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Лицензия мед') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Лицензия фарм') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Лицензия наркотических средств') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Обращение с приборами и установками, генерирующими ионизирующее излучение') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Обращение с радиоактивными веществами, приборами') ?></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="<?= Url::to(['static/structure']) ?>"><?= Yii::t('site', 'Наблюдательный совет') ?></a></li>
+                            <li class="submenu_child">
+                                <a href="#"><?= Yii::t('site', 'Организационная структура и штатная численность') ?></a><i class="fa fa-chevron-down"></i>
+                                <ul class="dropdown-submenu second_submenu">
+                                    <li><a href="<?= Url::to(['static/director']) ?>"><?= Yii::t('site', 'Организационная структура') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Штатная численности') ?></a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu_child">
+                                <a href="#"><?= Yii::t('site', 'Положение о Наблюдательного совета') ?></a><i class="fa fa-chevron-down"></i>
+                                <ul class="dropdown-submenu second_submenu">
+                                    <li><a href="<?= Url::to(['static/director']) ?>"><?= Yii::t('site', 'Положение о Наблюдательного совета') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Положение о секретаре Наблюдательного совета') ?></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="<?= Url::to(['static/specialist']) ?>"><?= Yii::t('site', 'Протокол решение Наблюдательного совета') ?></a></li>
+                            <li><a href="<?= Url::to(['static/people']) ?>"><?= Yii::t('site', 'Устав') ?></a></li>
+                        </ul>
+                    </li>
                     <li>
                         <a href="<?= Url::to(['post/index']) ?>"><?= Yii::t('site', 'Государственные закупки') ?></a>
                     </li>
@@ -116,9 +150,6 @@ use yii\helpers\Url;
                     </li>
                 </ul>
                 <div class="header-nav-right">
-                    <div class="headerButton">
-                        <a class="acctivee" href="#"><?= Yii::t('site', 'Корпаративное управление') ?></a>
-                    </div>
                     <div class="header-socials pt-3">
                         <a href="<?= Url::to(array_merge(\Yii::$app->request->get(), [\Yii::$app->controller->route, 'language' => 'ru'])) ?>" class="cartButton text-white">RU</a>
                         <a href="<?= Url::to(array_merge(\Yii::$app->request->get(), [\Yii::$app->controller->route, 'language' => 'kz'])) ?>" class="cartButton text-white">KZ</a>

@@ -41,3 +41,17 @@
 .headerButton a {
     font-size: 12px;
 }
+
+.header-socials {
+    float: right;
+    padding-left: 20px;
+    padding-top: 0 !important;
+}
+
+@media (min-width: 1200px) {
+    .navbar-nav {
+        float: left;
+        margin: 0;
+        width: 90%;
+    }
+}
