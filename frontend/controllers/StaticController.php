@@ -117,4 +117,84 @@ class StaticController extends Controller
     {
         return $this->render('codex');
     }
+
+    public function actionLicenseAgreement()
+    {
+        return $this->render('license-agreement');
+    }
+
+    public function actionLicenseFarm()
+    {
+        return $this->render('license-farm');
+    }
+
+    public function actionLicenseMed()
+    {
+        return $this->render('license-med');
+    }
+
+    public function actionLicenseNarko()
+    {
+        return $this->render('license-narko');
+    }
+
+    public function actionLicensePribor()
+    {
+        return $this->render('license-pribor');
+    }
+
+    public function actionLicenseRadio()
+    {
+        return $this->render('license-radio');
+    }
+
+    public function actionSupervisor()
+    {
+        return $this->render('supervisor');
+    }
+
+    public function actionOrgStructure()
+    {
+        return $this->render('org-structure');
+    }
+
+    public function actionPositionSupervisor()
+    {
+        return $this->render('position-supervisor');
+    }
+
+    public function actionPositionSecretary()
+    {
+        return $this->render('position-secretary');
+    }
+
+    public function actionState()
+    {
+        return $this->render('state');
+    }
+
+    public function actionStatute()
+    {
+        return $this->render('statute');
+    }
+
+    public function actionProtocol1()
+    {
+        return $this->render('protocol1');
+    }
+
+    public function actionProtocol2()
+    {
+        return $this->render('protocol2');
+    }
+
+    public function actionProtocol3()
+    {
+        return $this->render('protocol3');
+    }
+
+    public function actionProtocol4()
+    {
+        return $this->render('protocol4');
+    }
 }

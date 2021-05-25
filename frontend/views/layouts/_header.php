@@ -115,31 +115,39 @@ use yii\helpers\Url;
                             <li class="submenu_child">
                                 <a href="#"><?= Yii::t('site', 'Лицензия') ?></a><i class="fa fa-chevron-down"></i>
                                 <ul class="dropdown-submenu second_submenu">
-                                    <li><a href="<?= Url::to(['static/director']) ?>"><?= Yii::t('site', 'Лицензионный договор') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Лицензия мед') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Лицензия фарм') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Лицензия наркотических средств') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Обращение с приборами и установками, генерирующими ионизирующее излучение') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Обращение с радиоактивными веществами, приборами') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/license-agreement']) ?>"><?= Yii::t('site', 'Лицензионный договор') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/license-med']) ?>"><?= Yii::t('site', 'Лицензия мед') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/license-farm']) ?>"><?= Yii::t('site', 'Лицензия фарм') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/license-narko']) ?>"><?= Yii::t('site', 'Лицензия наркотических средств') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/license-pribor']) ?>"><?= Yii::t('site', 'Обращение с приборами и установками, генерирующими ионизирующее излучение') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/license-radio']) ?>"><?= Yii::t('site', 'Обращение с радиоактивными веществами, приборами') ?></a></li>
                                 </ul>
                             </li>
-                            <li><a href="<?= Url::to(['static/structure']) ?>"><?= Yii::t('site', 'Наблюдательный совет') ?></a></li>
+                            <li><a href="<?= Url::to(['static/supervisor']) ?>"><?= Yii::t('site', 'Наблюдательный совет') ?></a></li>
                             <li class="submenu_child">
                                 <a href="#"><?= Yii::t('site', 'Организационная структура и штатная численность') ?></a><i class="fa fa-chevron-down"></i>
                                 <ul class="dropdown-submenu second_submenu">
-                                    <li><a href="<?= Url::to(['static/director']) ?>"><?= Yii::t('site', 'Организационная структура') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Штатная численности') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/org-structure']) ?>"><?= Yii::t('site', 'Организационная структура') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/state']) ?>"><?= Yii::t('site', 'Штатная численности') ?></a></li>
                                 </ul>
                             </li>
                             <li class="submenu_child">
                                 <a href="#"><?= Yii::t('site', 'Положение о Наблюдательного совета') ?></a><i class="fa fa-chevron-down"></i>
                                 <ul class="dropdown-submenu second_submenu">
-                                    <li><a href="<?= Url::to(['static/director']) ?>"><?= Yii::t('site', 'Положение о Наблюдательного совета') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/vice']) ?>"><?= Yii::t('site', 'Положение о секретаре Наблюдательного совета') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/position-supervisor']) ?>"><?= Yii::t('site', 'Положение о Наблюдательного совета') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/position-secretary']) ?>"><?= Yii::t('site', 'Положение о секретаре Наблюдательного совета') ?></a></li>
                                 </ul>
                             </li>
-                            <li><a href="<?= Url::to(['static/specialist']) ?>"><?= Yii::t('site', 'Протокол решение Наблюдательного совета') ?></a></li>
-                            <li><a href="<?= Url::to(['static/people']) ?>"><?= Yii::t('site', 'Устав') ?></a></li>
+                            <li class="submenu_child">
+                                <a href="#"><?= Yii::t('site', 'Протокол решение Наблюдательного совета') ?></a><i class="fa fa-chevron-down"></i>
+                                <ul class="dropdown-submenu second_submenu">
+                                    <li><a href="<?= Url::to(['static/protocol1']) ?>"><?= Yii::t('site', 'Протокол 01-21') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/protocol2']) ?>"><?= Yii::t('site', 'Протокол 02-21') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/protocol3']) ?>"><?= Yii::t('site', 'Протокол 03-21') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/protocol4']) ?>"><?= Yii::t('site', 'Протокол 04-21') ?></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="<?= Url::to(['static/statute']) ?>"><?= Yii::t('site', 'Устав') ?></a></li>
                         </ul>
                     </li>
                     <li>

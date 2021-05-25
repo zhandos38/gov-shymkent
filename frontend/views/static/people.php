@@ -6,26 +6,28 @@ $this->params['breadcrumbs'][] = ['label' => Yii::t('site', 'О центре'), 
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <h2><?= Yii::t('site', 'Населению') ?></h2>
-<?php if (Yii::$app->language === 'ru'): ?>
-<div class="row">
-    <div class="col-md-12">
-        <iframe src="/files/Положение об окозании платных услуг.PDF" frameborder="0" width="100%" height="420px"></iframe>
+<?php if (Yii::$app->language === 'ru'): ?>Бағалардың тізімі.PDF
+    <div class="row">
+        <div class="col-md-12">
+            <iframe src="/files/Положение об окозании платных услуг.PDF" frameborder="0" width="100%" height="420px"></iframe>
+        </div>
+        <div class="col-md-12">
+            <iframe src="/files/Прейскурант 04-21.PDF" frameborder="0" width="100%" height="420px"></iframe>
+        </div>
     </div>
-    <div class="col-md-12">
-        <iframe src="/files/Прейскурант 04-21.PDF" frameborder="0" width="100%" height="420px"></iframe>
-    </div>
-</div>
+    <p>
+        Договор по предоставлению медицинской помощи в рамках гарантированного объема бесплатной медицинской помощи, заключаемого между пациентом и медицинской организацией
+        Обязательное социальное медицинское страхование
+    </p>
 <?php else: ?>
     <div class="row">
         <div class="col-md-12">
-            <iframe src="/files/Бағалардың тізімі.PDF" frameborder="0" width="100%" height="420px"></iframe>
+            <h4>Бағалардың тізімі</h4>
+            <iframe src="/files/Бағалардың тізімі.PDF" frameborder="0" width="100%" height="600px"></iframe>
         </div>
     </div>
 <?php endif; ?>
-<p>
-    Договор по предоставлению медицинской помощи в рамках гарантированного объема бесплатной медицинской помощи, заключаемого между пациентом и медицинской организацией
-    Обязательное социальное медицинское страхование
-</p>
+
 <h4>
     Видео
 </h4>
