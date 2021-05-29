@@ -12,6 +12,7 @@ use yii\helpers\Url;
                             <img src="/img/logo.png" class="img-responsive" style="width: 80px" alt="logo">
                             <div style="padding-left: 12px; padding-bottom: 5px; font-size: 16px; color: #303b41">
                                 <div><b>ГКП НА ПХВ</b></div>
+                                <div style="color: #007bff"><b>Городской онкологический центр</b></div>
                             </div>
                         </div>
                     </a>
