@@ -151,7 +151,7 @@ use yii\helpers\Url;
                         </ul>
                     </li>
                     <li>
-                        <a href="<?= Url::to(['post/index']) ?>"><?= Yii::t('site', 'Государственные закупки') ?></a>
+                        <a href="<?= Url::to(['site/zakup']) ?>"><?= Yii::t('site', 'Государственные закупки') ?></a>
                     </li>
                     <li>
                         <a href="<?= Url::to(['site/contact']) ?>"><?= Yii::t('site', 'Контакты') ?></a>
