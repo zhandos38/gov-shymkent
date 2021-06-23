@@ -186,7 +186,7 @@ $this->title = 'Главная страница';
                 <h3><?= Yii::t('site', 'Радиогинекология') ?></h3>
             </a>
             <a href="<?= Url::to(['static/light']) ?>" class="per-box">
-                <i class="far fa-bolt"></i>
+                <img src="/img/ct-scan.png" style="width: 86px" alt="img">
                 <h3><?= Yii::t('site', 'Лучевая диагностика') ?></h3>
             </a>
             <a href="services-details.v.1.html" class="per-box">

@@ -9,6 +9,7 @@ use yii\helpers\Url; ?>
         <div class="col-lg-12 p-40">
             <a href="/files/zakup.PDF">Скачать государственные закупки</a> <br>
             <a href="/files/File0001.PDF">Скачать протокол об утверждении итогов по закупкам</a> <br>
+            <a href="/files/File.PDF">Скачать объявление о проведении закупа лекарственных средств</a>
         </div>
     </div>
 </div>
