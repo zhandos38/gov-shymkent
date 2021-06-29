@@ -197,4 +197,9 @@ class StaticController extends Controller
     {
         return $this->render('protocol4');
     }
+
+    public function actionPalliativeCare()
+    {
+        return $this->render('palliative-care');
+    }
 }

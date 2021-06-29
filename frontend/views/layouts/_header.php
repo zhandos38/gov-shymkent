@@ -87,7 +87,7 @@ use yii\helpers\Url;
                                     <li><a href="#"><?= Yii::t('site', 'Радиология') ?></a></li>
                                     <li><a href="<?= Url::to(['static/mammalogy']) ?>"><?= Yii::t('site', 'Маммология') ?></a></li>
                                     <li><a href="<?= Url::to(['static/chem']) ?>"><?= Yii::t('site', 'Химиятерапия') ?></a></li>
-                                    <li><a href="#"><?= Yii::t('site', 'Паллиативная помощь') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/palliative-care']) ?>"><?= Yii::t('site', 'Паллиативная помощь') ?></a></li>
                                     <li><a href="<?= Url::to(['static/anestasy']) ?>"><?= Yii::t('site', 'Отделение анестезиологии и реанимации и интенсивной терапии') ?></a></li>
                                     <li><a href="#"><?= Yii::t('site', 'Операционный блок') ?></a></li>
                                     <li><a href="<?= Url::to(['static/day']) ?>"><?= Yii::t('site', 'Дневной стационар химиотерапии и лучевой терапии') ?></a></li>
