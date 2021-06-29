@@ -262,4 +262,9 @@ class SiteController extends Controller
     {
         return $this->render('service');
     }
+
+    public function actionZakup()
+    {
+        return $this->render('zakup');
+    }
 }
