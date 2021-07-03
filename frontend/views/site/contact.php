@@ -3,7 +3,8 @@ $this->title = Yii::t('site', 'Контакты');
 
 $this->params['title'][] = $this->title;
 $this->params['breadcrumbs'][] = $this->title;
-use yii\helpers\Url; ?>
+use yii\helpers\Url;
+?>
 <div class="container mt-80">
     <div class="row">
         <div class="col-lg-5 p-40">
