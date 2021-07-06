@@ -2,6 +2,7 @@
 namespace frontend\controllers;
 
 use common\models\Department;
+use common\models\Document;
 use common\models\Mark;
 use common\models\Post;
 use frontend\models\ResendVerificationEmailForm;
@@ -266,7 +267,11 @@ class SiteController extends Controller
 
     public function actionZakup()
     {
-        return $this->render('zakup');
+        $files = Document::find()->all();
+
+        return $this->render('zakup', [
+            'files' => $files
+        ]);
     }
 
     public function actionDepartment($id)

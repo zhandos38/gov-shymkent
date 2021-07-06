@@ -21,6 +21,7 @@
                     ['label' => 'Пользователи', 'icon' => 'fas fa-user', 'url' => ['user/index']],
                     ['label' => 'Посты', 'icon' => 'fas fa-user', 'url' => ['post/index']],
                     ['label' => 'Отделении', 'icon' => 'fas fa-building', 'url' => ['department/index']],
+                    ['label' => 'Гос. закупы', 'icon' => 'fas fa-file', 'url' => ['document/index']],
                 ],
             ]
         ) ?>
