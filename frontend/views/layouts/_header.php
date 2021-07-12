@@ -6,7 +6,7 @@ use yii\helpers\Url;
     <div class="headerTop">
         <div class="container">
             <div class="row ">
-                <div class="col-lg-4 col-sm-3 col-xs-12">
+                <div class="col-lg-4 col-sm-3 col-xs-7">
                     <a href="/" class="logo">
                         <div style="display:flex;justify-content: center;align-items: center">
                             <img src="/img/logo.png" class="img-responsive" style="width: 80px" alt="logo">
@@ -17,7 +17,10 @@ use yii\helpers\Url;
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-8 col-sm-9 col-xs-12 pull-right">
+                <div class="col-lg-2 col-sm-3 col-xs-5 text-center">
+                    <img style="margin-left: 30px; width: 80px" src="/img/accr.jpg" alt="logo">
+                </div>
+                <div class="col-lg-6 col-sm-7 col-xs-12 pull-right">
                     <div class="contact-location">
                         <div class="left-location">
                             <i class="icofont-phone"></i>
