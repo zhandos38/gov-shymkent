@@ -6,7 +6,7 @@ use yii\helpers\Url;
     <div class="headerTop">
         <div class="container">
             <div class="row ">
-                <div class="col-lg-4 col-sm-3 col-xs-12">
+                <div class="col-lg-4 col-sm-3 col-xs-7">
                     <a href="/" class="logo">
                         <div style="display:flex;justify-content: center;align-items: center">
                             <img src="/img/logo.png" class="img-responsive" style="width: 80px" alt="logo">
@@ -17,7 +17,10 @@ use yii\helpers\Url;
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-8 col-sm-9 col-xs-12 pull-right">
+                <div class="col-lg-2 col-sm-3 col-xs-5 text-center">
+                    <img style="margin-left: 30px; width: 80px" src="/img/accr.jpg" alt="logo">
+                </div>
+                <div class="col-lg-6 col-sm-7 col-xs-12 pull-right">
                     <div class="contact-location">
                         <div class="left-location">
                             <i class="icofont-phone"></i>
@@ -80,30 +83,19 @@ use yii\helpers\Url;
                     <li class="dropdown">
                         <a href="#"><?= Yii::t('site', 'Клиника') ?></a><i class="fa fa-chevron-down"></i>
                         <ul class="dropdown-submenu">
-                            <li class="submenu_child">
-                                <a href="#"><?= Yii::t('site', 'Клинические отделения') ?></a><i class="fa fa-chevron-down"></i>
-                                <ul class="dropdown-submenu second_submenu">
-                                    <li><a href="#"><?= Yii::t('site', 'Торакоабдоминальная хирургия') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/radiogynecology']) ?>"><?= Yii::t('site', 'Радиогинекология') ?></a></li>
-                                    <li><a href="#"><?= Yii::t('site', 'Радиология') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/mammalogy']) ?>"><?= Yii::t('site', 'Маммология') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/chem']) ?>"><?= Yii::t('site', 'Химиятерапия') ?></a></li>
-                                    <li><a href="#"><?= Yii::t('site', 'Паллиативная помощь') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/anestasy']) ?>"><?= Yii::t('site', 'Отделение анестезиологии и реанимации и интенсивной терапии') ?></a></li>
-                                    <li><a href="#"><?= Yii::t('site', 'Операционный блок') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/day']) ?>"><?= Yii::t('site', 'Дневной стационар химиотерапии и лучевой терапии') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/consult']) ?>"><?= Yii::t('site', 'Консультативно-диагноситческая поликлиника') ?></a></li>
-                                    <li><a href="#"><?= Yii::t('site', 'Отдел дозиметрии и физико-технического обеспечения лучевой терапии') ?></a></li>
-                                </ul>
-                            </li>
-                            <li class="submenu_child">
-                                <a href="#"><?= Yii::t('site', 'Отделение диагностики') ?></a><i class="fa fa-chevron-down"></i>
-                                <ul class="dropdown-submenu second_submenu">
-                                    <li><a href="#"><?= Yii::t('site', 'Клинико-диагностическая лаборатория') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/cisto']) ?>"><?= Yii::t('site', 'Цитогистологическая лаборатория') ?></a></li>
-                                    <li><a href="<?= Url::to(['static/light']) ?>"><?= Yii::t('site', 'Лучевая диагностика') ?></a></li>
-                                </ul>
-                            </li>
+                            <?php foreach (\common\models\Department::getGroupLabels() as $key => $group): ?>
+                                <li class="submenu_child">
+                                    <a href="#"><?= $group ?></a><i class="fa fa-chevron-down"></i>
+                                    <?php $departments = \common\models\Department::findAll(['group' => $key]); ?>
+                                    <?php if (!empty($departments)): ?>
+                                    <ul class="dropdown-submenu second_submenu">
+                                        <?php foreach ($departments as $department): ?>
+                                        <li><a href="<?= Url::to(['site/department', 'id' => $department->id]) ?>"><?= $department->getTitle() ?></a></li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                    <?php endif; ?>
+                                </li>
+                            <?php endforeach; ?>
                         </ul>
                     </li>
                     <li>
