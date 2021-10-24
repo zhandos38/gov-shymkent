@@ -1,5 +1,5 @@
 <?php
-$this->title = Yii::t('site', 'Протокол 01-21');
+$this->title = Yii::t('site', 'Протокол 02-21');
 
 $this->params['title'][] = $this->title;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('site', 'О центре'), 'url' => ['static/about']];

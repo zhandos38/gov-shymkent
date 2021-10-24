@@ -197,4 +197,14 @@ class StaticController extends Controller
     {
         return $this->render('protocol4');
     }
+
+    public function actionProtocol5()
+    {
+        return $this->render('protocol5');
+    }
+
+    public function actionPlan()
+    {
+        return $this->render('plan');
+    }
 }

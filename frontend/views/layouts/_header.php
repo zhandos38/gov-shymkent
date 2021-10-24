@@ -74,6 +74,7 @@ use yii\helpers\Url;
                             <li><a href="<?= Url::to(['static/specialist']) ?>"><?= Yii::t('site', 'Специалисты') ?></a></li>
                             <li><a href="<?= Url::to(['static/people']) ?>"><?= Yii::t('site', 'Населению') ?></a></li>
                             <li><a href="<?= Url::to(['static/licence']) ?>"><?= Yii::t('site', 'Лицензия') ?></a></li>
+                            <li><a href="<?= Url::to(['static/plan']) ?>"><?= Yii::t('site', 'Стратегический план') ?></a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -145,6 +146,7 @@ use yii\helpers\Url;
                                     <li><a href="<?= Url::to(['static/protocol2']) ?>"><?= Yii::t('site', 'Протокол 02-21') ?></a></li>
                                     <li><a href="<?= Url::to(['static/protocol3']) ?>"><?= Yii::t('site', 'Протокол 03-21') ?></a></li>
                                     <li><a href="<?= Url::to(['static/protocol4']) ?>"><?= Yii::t('site', 'Протокол 04-21') ?></a></li>
+                                    <li><a href="<?= Url::to(['static/protocol5']) ?>"><?= Yii::t('site', 'Протокол 05-21') ?></a></li>
                                 </ul>
                             </li>
                             <li><a href="<?= Url::to(['static/statute']) ?>"><?= Yii::t('site', 'Устав') ?></a></li>
