@@ -202,4 +202,9 @@ class StaticController extends Controller
     {
         return $this->render('palliative-care');
     }
+
+    public function actionPaidServices()
+    {
+        return $this->render('paid-services');
+    }
 }
