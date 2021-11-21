@@ -76,6 +76,7 @@ use yii\helpers\Url;
                             <li><a href="<?= Url::to(['static/screening']) ?>"><?= Yii::t('site', 'Скрининг населения') ?></a></li>
                             <li><a href="<?= Url::to(['static/specialist']) ?>"><?= Yii::t('site', 'Специалисты') ?></a></li>
                             <li><a href="<?= Url::to(['static/people']) ?>"><?= Yii::t('site', 'Населению') ?></a></li>
+                            <li><a href="<?= Url::to(['static/paid-services']) ?>"><?= Yii::t('site', 'Платные услуги') ?></a></li>
                             <li><a href="<?= Url::to(['static/licence']) ?>"><?= Yii::t('site', 'Лицензия') ?></a></li>
                             <li><a href="<?= Url::to(['static/plan']) ?>"><?= Yii::t('site', 'Стратегический план') ?></a></li>
                         </ul>

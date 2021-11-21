@@ -27,9 +27,6 @@ $this->params['breadcrumbs'][] = $this->title;
             <iframe src="/files/Положение по оказанию услуг СОИСПОЛНИТЕЛЯ.PDF" frameborder="0" width="100%" height="420px"></iframe>
         </div>
         <div class="col-md-12">
-            <iframe src="/files/список  врачей на коректировка Э.К.-converted.pdf" frameborder="0" width="100%" height="420px"></iframe>
-        </div>
-        <div class="col-md-12">
             <a href="/files/Типовой договор платный услуг новая 27.04.2021.docx">Типовой договор платный услуг новая 27.04.2021</a>
         </div>
     </div>
